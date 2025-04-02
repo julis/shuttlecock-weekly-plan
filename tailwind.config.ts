@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Monday.com inspired colors
+				monday: {
+					blue: '#0073EA',
+					green: '#00CA72',
+					yellow: '#FFC107',
+					red: '#E8505B',
+					lightGray: '#F5F6F8',
+					darkGray: '#676879',
+				},
+				intensity: {
+					low: '#00CA72',
+					medium: '#FFC107',
+					high: '#E8505B',
 				}
 			},
 			borderRadius: {
